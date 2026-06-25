@@ -8,8 +8,18 @@
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1eaef71d-c3e5-4a01-9b96-a0e2c0a5fb6d"
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.saurabhgupta.kiddoassignment"
+    },
+    "android": {
+      "package": "com.saurabhgupta.kiddoassignment"
     },
     "web": {
       "bundler": "metro",
@@ -23,6 +33,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1eaef71d-c3e5-4a01-9b96-a0e2c0a5fb6d"
+      }
     }
   }
 }
